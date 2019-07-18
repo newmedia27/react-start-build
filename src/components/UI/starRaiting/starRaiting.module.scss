@@ -1,0 +1,16 @@
+@import '../../assets/styles/variables';
+.starRaiting {
+    display: flex;
+    align-items: center;
+    &__count {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14.976px;
+        line-height: 20px;
+
+        /* identical to box height */
+        text-align: center;
+        margin-left: 1rem;
+        color: #9b9b9b;
+    }
+}
